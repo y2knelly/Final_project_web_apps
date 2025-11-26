@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Typing Adventure</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Header with HUD and controls -->
+  <header>
+    <h1>Typing Adventure</h1>
+    <div id="hud">
+      <span id="health">HP: 100</span>
+      <span id="score">Score: 0</span>
+      <span id="combo">Combo: x1</span>
+      <span id="wave">Wave: 1</span>
+    </div>
+    <div id="gameControls">
+      <button id="pauseBtn">Pause</button>
+      <button id="restartBtn">Restart</button>
+    </div>
+  </header>
+
+  <!-- Main game area -->
+  <main>
+    <section id="arena" aria-label="Battlefield">
+      <div id="waveBanner"></div>
+    </section>
+
+    <!-- Right panel for defeated words -->
+    <aside id="panel" aria-label="Defeated words">
+      <h3>Defeated Words</h3>
+      <div id="defeatedWords"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Type the words to defeat enemies. Press Tab to switch target.</p>
+  </footer>
+
+  <!-- Start Screen Overlay -->
+  <div id="startScreen">
+    <div class="overlay">
+      <h1>Typing Adventure</h1>
+      <button id="startGame">Start</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
