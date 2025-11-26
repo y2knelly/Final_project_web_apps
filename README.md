@@ -1,6 +1,12 @@
 # Typing Adventure 
 
+🔗 [Play Typing Adventure Online](https://yourusername.github.io/typing-adventure/)
+
+
 Typing Adventure is a fast‑paced browser game where players defend their base by typing words before enemies reach the edge of the arena. Built with **vanilla JavaScript, HTML, and CSS**, it combines typing practice with arcade‑style gameplay.
+
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/1562b50b-9a80-4367-bb49-d1d3a2b02fcd" />
+
 
 ---
 
@@ -14,6 +20,9 @@ Typing Adventure is a fast‑paced browser game where players defend their base 
   - Tab key to switch active target
   - Keyboard input to type words
 - Game over overlay with score summary and restart option.
+
+<img width="1907" height="930" alt="image" src="https://github.com/user-attachments/assets/e4908298-e0bc-4f58-8b57-dd453fd51734" />
+
 
 ---
 
