@@ -26,13 +26,6 @@ Typing Adventure is a fast‑paced browser game where players defend their base 
 
 ---
 
-## Project Structure
-/project-root │── index.html # Game layout │── style.css # Styling and animations │── app.js # Core game logic │── README.md # Project documentation
-
-Code
-
----
-
 🎨 Word Difficulty Colors
 Green: 3‑letter words (easy)
 
@@ -46,9 +39,3 @@ Purple: 7‑letter words
 
 White: Boss words (8+ letters)
 
-
-Code
-
----
-
-Do you want me to also add a **Demo section** at the top with placeholders for screenshots or GIFs so you can show off gameplay visuals later?
